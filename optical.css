@@ -12,6 +12,7 @@
     width: 33.3%;
     padding: 16px 0;
 }
+
 .category-item:hover{
     border-bottom: 8px solid #AA0601;
 }
@@ -21,17 +22,17 @@
 /* 商品分類END */
 
 /* 太陽眼鏡BN */
-.sunglasses-banner{
+.optical-banner{
     display: flex;
     height: 296px;
 }
-.sunglasses-banner-img-1{
+.optical-banner-img-1{
     width: 50%;
     background-image: url(img/product-header-1.png);
     background-size: cover;
     background-position: center;
 }
-.sunglasses-banner-img-2{
+.optical-banner-img-2{
     width: 50%;
     background-image: url(img/product-header-2.png);
     background-size: cover;
@@ -41,32 +42,32 @@
 /* 太陽眼鏡BN END*/
 
 /* 商品目錄 */
-.newCollection{
+.optical{
     display: flex;
     flex-wrap: wrap;
 }
-.newCollection-item{
-    width: 30%;
+.optical-item{
+    width: 22%;
 }
-.newCollection-item a:hover{
+.optical-item a:hover{
     filter: brightness(80%);
 }
-.newCollection-content{
+.optical-content{
     display: flex;
     justify-content: space-between;
 }
-.sunglasses-color{
+.optical-color{
     display: flex;
     justify-content: start;
 }
-.sunglasses-color-1{
+.optical-color-1{
     display: inline-block;
     width: 24px;
     height: 24px;
     background-color: #5F3E2D;
     border-radius: 4px;
 }
-.sunglasses-color-2{
+.optical-color-2{
     display: inline-block;
     left: 0;
     width: 24px;
